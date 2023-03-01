@@ -10,7 +10,7 @@ import com.app.address.result.ClientError;
 import com.app.address.result.Result;
 import com.app.address.result.ServerError;
 import com.app.address.result.Success;
-import com.app.address.util.internalization.Translator;
+import com.app.address.util.internationalization.Translator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

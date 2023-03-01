@@ -1,4 +1,4 @@
-package com.app.address.util.internalization;
+package com.app.address.util.internationalization;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

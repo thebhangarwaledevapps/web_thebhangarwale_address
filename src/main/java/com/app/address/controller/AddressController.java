@@ -5,7 +5,6 @@ import com.app.address.result.Result;
 import com.app.address.result.ServerError;
 import com.app.address.result.Success;
 import com.app.address.service.AddressService;
-import com.app.address.util.internalization.Translator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -42,10 +41,10 @@ public class AddressController {
         return getResultResponseEntity(addressService.updateAddress(customerId, addressId, address, pincode, latitude, longitude));
     }
 
-    @PostMapping("/deleteAddress")
+    @GetMapping("/deleteAddress")
     public ResponseEntity deleteAddress(
             @RequestParam String customerId,
-            @RequestBody List<Long> addressId
+            @RequestParam List<Long> addressId
     ) {
         return getResultResponseEntity(addressService.deleteAddress(customerId, addressId));
     }

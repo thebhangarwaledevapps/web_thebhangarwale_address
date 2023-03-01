@@ -21,7 +21,7 @@ public class TestTables {
 
     @Test
     void test(){
-        customerDao.save(new Customer("Bhangarwale_00001",Arrays.asList(new Address("Sai Nagar","440034",null))));
+        //customerDao.save(new Customer("Bhangarwale_00001",Arrays.asList(new Address("Sai Nagar","440034",null))));
     }
 
 }

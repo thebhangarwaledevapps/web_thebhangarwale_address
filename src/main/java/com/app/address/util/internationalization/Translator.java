@@ -1,4 +1,4 @@
-package com.app.address.util.internalization;
+package com.app.address.util.internationalization;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.i18n.LocaleContextHolder;
